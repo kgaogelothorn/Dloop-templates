@@ -1,14 +1,22 @@
 .main-cv {
     background: white
   }
+ul {
+  list-style: none;
+  margin-left: -45px;
+  line-height: 27px;
+  li {
+    margin-bottom: 10px;
+  }
+}
 
   [class*="entypo-"]:before {
-    font-family: 'entypo', sans-serif;
+    font-family: sans-serif;
   }
 
   /* fontawesome */
   [class*="fontawesome-"]:before {
-    font-family: 'FontAwesome', sans-serif;
+    font-family: sans-serif;
   }
 
   /* Utils */
@@ -23,10 +31,15 @@
 
   .block {
     margin: 25px 30px;
+    
   }
 
   .main-cv h2 {
     color: #000000;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+
   }
 
   .block h1 {
@@ -157,6 +170,7 @@
     padding: 15px;
     max-width: 1024px;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   #header {
@@ -181,6 +195,7 @@
   #left_col {
     width: 260px;
     float: left;
+    margin-right: 18px;
   }
 
   #content_container {
@@ -190,10 +205,12 @@
   }
 
   #footer {
-    width: 960px;
+    width: 900px;
     height: 60px;
-    border-top: 1px solid #cccccc;
+    background-color: #7f7f7f;
     display: inline-block;
+    color: white;
+    padding: 0 10px 0 10px;
   }
 
   /* HEADER */
@@ -290,7 +307,7 @@
     height: 230px;
     margin: 0;
     background-size: cover;
-
+    margin-left: 23px;
   }
 
   .hello_content {
@@ -298,7 +315,7 @@
   }
 
   .hello_content {
-    width: 230px;
+    width: 250px;
   }
 
   .contact_details_content h2+p.purple {
@@ -402,7 +419,6 @@
     float: left;
     padding-left: 40px;
   }
-  .text-center {
-    text-align: center;
-    margin-right: 45px;
+  .float-right {
+    float: right;
   }
