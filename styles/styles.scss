@@ -1,5 +1,6 @@
 .main-cv {
     background: white
+    
   }
 ul {
   list-style: none;
@@ -166,9 +167,9 @@ ul {
   /* Containers size */
 
   #main_container {
-    width: 100%;
+    width: 670px;
     padding: 15px;
-    max-width: 1024px;
+    // max-width: 999px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -179,7 +180,7 @@ ul {
   }
 
   .header_logotype_container {
-    width: 260px;
+    width: 270px;
     height: 130px;
     border-right: 1px solid #333333;
     float: left;
@@ -193,24 +194,25 @@ ul {
 
 
   #left_col {
-    width: 260px;
+    width: 270px;
     float: left;
     margin-right: 18px;
   }
 
   #content_container {
-    width: 699px;
+    width: 380px;
     border-left: 1px solid #cccccc;
-    float: left;
+    float: right;
   }
 
   #footer {
-    width: 700px;
+    width: 660px;
     height: 50px;
     background-color: #7f7f7fc9;
     display: inline-block;
     color: white;
-    padding: 0 10px 0 10px;
+    padding: 10px;
+    margin-left: -20px;
 }
 
   /* HEADER */
