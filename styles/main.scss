@@ -3,7 +3,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
-	justify-content: center;
+	// justify-content: center;
     padding: 20px;
     height: 100%;
 }
@@ -21,7 +21,6 @@ body {
 	height: calc( 11in - 60px );
 	background: #fff;
 	padding: 30px 40px;
-	overflow: auto;
 }
 #header {
 	display: flex;
