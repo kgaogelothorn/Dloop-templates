@@ -1,11 +1,13 @@
 body {
 	background: #f0f0f0;
-	width: 100vw;
-	height: 100vh;
 	display: flex;
+	padding: 0;
+	margin: 0;
+	// width: 100vw;
+	// height: 100vh;
 	// justify-content: center;
-    padding: 20px;
-    height: 100%;
+    // padding: 20px;
+	// height: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,600,700');
@@ -17,6 +19,7 @@ body {
 }
 
 #payslip {
+	margin: auto;
 	width: calc( 8.5in - 80px );
 	height: calc( 11in - 60px );
 	background: #fff;
